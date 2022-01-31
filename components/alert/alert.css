@@ -1,0 +1,47 @@
+@import "/default.css";
+
+
+body {
+    margin: 2rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.icon {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.alert {
+    max-width: 600px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.alert-error {
+    color: var(--danger-color);
+    background-color:#faafa5 ;
+}
+
+.alert-warning {
+    color: var(--warning-color);
+    background-color: #f8e8a9;
+}
+
+.alert-info {
+    color: var(--info-color);
+    background-color: rgb(192, 215, 223);
+}
+
+.alert-success {
+    color: var(success-color);
+    background-color: rgb(195, 248, 195);
+}
