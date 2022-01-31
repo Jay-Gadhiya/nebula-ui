@@ -212,13 +212,20 @@ img {
 
 .card-text-overlay-wrapper {
     position: relative;
+}
+
+.card-opacity {
     opacity: 0.4;
 }
 
 .card-unavailable {
     position: absolute;
     color: var(--danger-color);
-  
+    top: 54%;
+    left: 15%;
+    font-weight: 600;
+    border: 1px solid var(--danger-color);
+    padding: .6rem;
 }
 
 
