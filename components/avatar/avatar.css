@@ -1,0 +1,35 @@
+@import "/default.css";
+
+.avatar-sizes {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: aliceblue;
+}
+
+.avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-sizes div {
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+
+.avatar-large {
+    width:8rem;
+    height: 8rem;
+}
+
+.avatar-meduim {
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar-small {
+    width: 3rem;
+    height: 3rem;
+}
