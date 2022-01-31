@@ -1,0 +1,37 @@
+@import "/default.css";
+
+body {
+    margin: 2rem;
+}
+
+.label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+input {
+    max-width: 20rem;
+    width: 100%;
+    padding: .6rem;
+}
+
+.error-message {
+    color: red;
+    font-size: .9rem;
+}
+
+.err {
+    border: 2px solid var(--danger-color);
+    outline: none;
+}
+
+.success {
+    border:2px solid var(--success-color);
+    outline: none;
+}
+
+.success-message {
+    color: var(--success-color);
+}
+
