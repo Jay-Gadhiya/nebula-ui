@@ -102,7 +102,7 @@ img {
 
 .card-wrapper {
     width: 100%;
-    max-width: 14rem;
+    max-width: 15rem;
     box-shadow: hsla(240, 5%, 41%, 0.2) 0px 0px 5px 0px;
 }
 
@@ -115,6 +115,7 @@ img {
 .card-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 1rem;
     font-size: .7rem;
 }
@@ -166,7 +167,8 @@ img {
 .card-horizontal-wrapper {
     padding-right: 1rem;
     padding-bottom: .5rem;
-    width: fit-content;
+    width: 100%;
+    max-width: 48rem;
     box-shadow: 0px 1px 4px #888888;
 
 }
