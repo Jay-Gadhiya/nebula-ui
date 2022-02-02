@@ -28,7 +28,7 @@ body {
 
 .alert-error {
     color: var(--danger-color);
-    background-color:#faafa5 ;
+    background-color:#f5bab2 ;
 }
 
 .alert-warning {
