@@ -241,11 +241,3 @@ img {
 .shadow-1 {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-
-.shadow-2 {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.shadow-3 {
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-}
