@@ -11,13 +11,15 @@
 :root {
   --primary-color: #3b82f6;
   --primary-hover: #60a5fa;
-  --secondary-color: #e2297c;
-  --secondary-hover: #f472b6;
+  --secondary-color: #eee;
+  --secondary-hover: #cac2c2;
   --danger-color: #f44336;
   --danger-hover: #d31609;
   --success-color: #4caf50;
   --success-hover: #0d8611;
   --warning-color: #ff9800;
+  --info-color : #181868;
+  --default-hover : #D1D5DB;
 }
 
 body {
