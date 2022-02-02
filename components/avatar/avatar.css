@@ -1,5 +1,11 @@
 @import "/default.css";
 
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--default-black);
+    height: auto;
+}
+
 .avatar-sizes {
     margin: 0 auto;
     display: flex;
@@ -32,4 +38,68 @@
 .avatar-small {
     width: 3rem;
     height: 3rem;
+}
+
+
+/* doc code */
+
+.margin-bottom {
+    margin-bottom: 1.5rem;
+}
+
+.separator {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 1px;
+    background-color: #dadadaf3;
+}
+
+.component-wrapper {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+.comp-heading {
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.variant-heading {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.heading-discription {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.varient-discription {
+    font-weight: 300;
+}
+
+.component-container {
+    background-color: rgb(241, 246, 247);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.component-container > img {
+    margin-left: 1rem;
+}
+
+.img-cover {
+    object-fit: contain;
+}
+
+.code-container {
+    width: 100%;
+    max-width: 750px;
+}
+
+.iframe-length {
+    width: 100%;
+
 }

@@ -20,6 +20,7 @@
   --warning-color: #ff9800;
   --info-color : #181868;
   --default-hover : #D1D5DB;
+  --default-black : #333333;
   
 }
 
@@ -38,4 +39,8 @@ a {
 
 button {
   cursor: pointer;
+}
+
+.line-height {
+  line-height: 1.6rem;
 }
