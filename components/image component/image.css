@@ -16,7 +16,7 @@ h1 {
     align-items: center;
 }
 
-img {
+.img-responsive {
     max-width: 100%;
     height: auto;
 }
