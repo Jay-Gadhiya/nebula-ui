@@ -1,0 +1,30 @@
+
+@import "/default.css";
+
+body {
+    margin: 2rem;
+}
+
+h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.img-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-corner-img {
+    border-radius: 5px;
+}
+
+.round-img {
+    border-radius: 50%;
+}
