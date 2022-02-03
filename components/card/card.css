@@ -53,9 +53,18 @@ h2 {
     color: var(--primary-color);
 }
 
-.btn-primary-outline:hover{
-    background-color: var(--primary-color);
-    color: #fff;
+
+.btn-wishlist {
+    box-shadow: none;
+    border: 1px solid var(--secondary-hover);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.btn-wishlist:hover {
+    background-color: var(--secondary-hover);
 }
 
 .icon {
