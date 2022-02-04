@@ -1,0 +1,252 @@
+@import "/default.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    margin: 2rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+/********************** ||card button ********************/
+.btn {
+    padding: .5rem .7rem;
+    margin-top: 1.5rem;
+    font-family: inherit;
+    background-color: #eee;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    box-shadow: 0px 3px 1px -2px RGB(0 0 0/20%), 0px 2px 2px 0px RGB(0 0 0/14%), 0px 1px 5px 0px RGB(0 0 0/12%);
+    transition: .4s ease-in-out;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+
+.btn-primary-outline {
+    border: 2px solid var(--primary-color);
+    box-shadow: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+
+.btn-wishlist {
+    box-shadow: none;
+    border: 1px solid var(--secondary-hover);
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.btn-wishlist:hover {
+    background-color: var(--secondary-hover);
+}
+
+.icon {
+    font-size: 1rem;
+    padding-right: .7rem;
+    cursor: pointer;
+}
+
+.icon-heart {
+    color: gray;
+}
+
+.icon-heart.heart-icon-color {                 /*toogle using js*/
+    color: #f44336;
+}
+
+
+
+/************* || card image **********3*******/
+.card-image {
+    position: relative;
+    height: 14rem;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.badge-new {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background-color: #e66da9;
+    padding: .3rem 1.5rem;
+    border-radius:5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+/************************* || card **********************/
+
+.card-wrapper {
+    width: 100%;
+    max-width: 15rem;
+    box-shadow: hsla(240, 5%, 41%, 0.2) 0px 0px 5px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: .7rem;
+}
+
+.card-product-name {
+    font-weight: 500;
+}
+
+.card-brief-detail {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: .7rem 0;
+    color: rgb(71, 66, 66);
+}
+
+.card-price {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.text-strike-over {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.text-discount {
+    color: #e66da9;
+    font-weight: 300;
+}
+
+
+/* ************ Card with dismiss *********/
+
+.delete-icon {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.delete-card {
+    display: none;
+}
+
+
+/* Horizontal card */
+
+.card-horizontal-wrapper {
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    max-width: 48rem;
+    box-shadow: 0px 1px 4px #888888;
+
+}
+
+.horizontal-card {
+    display: flex;
+
+}
+
+.card-horizontal-image {
+    max-width: 10rem;
+    max-height: 9rem;
+    margin: 1rem;
+}
+
+.hide-hz {
+    display: none;
+}
+
+
+/******************Text Only Card****************************/
+
+
+.card-text {
+    width: 100%;
+    max-width: 17rem;
+    box-shadow: 0px 1px 4px #888888;
+    padding: 1rem;
+}
+.header {
+    padding-bottom: .5rem;
+}
+.heading {
+    font-size: 1.4rem;
+}
+
+.text {
+    font-weight: 300;
+}
+
+
+/* *******************text overlay card************ */
+
+.card-text-overlay-wrapper {
+    position: relative;
+}
+
+.card-opacity {
+    opacity: 0.4;
+}
+
+.card-unavailable {
+    position: absolute;
+    color: var(--danger-color);
+    top: 54%;
+    left: 15%;
+    font-weight: 600;
+    border: 1px solid var(--danger-color);
+    padding: .6rem;
+}
+
+
+/* Cards with shadows */
+
+.shadow-card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shadow-1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
