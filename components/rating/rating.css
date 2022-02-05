@@ -1,0 +1,40 @@
+@import "/default.css";
+
+body {
+    margin: 2rem;
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+
+.rating-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.number-rating {
+    background-color: #388e3c;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 2px 4px 2px 6px;
+    font-weight: 900;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.rat-count {
+    color: #878787;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.rat-star-icons {
+    color: #cac6c6;
+}
+
+.rat-active {
+    color: #f0b906;
+}
