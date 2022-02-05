@@ -1,0 +1,71 @@
+@import "/default.css";
+
+body {
+    margin: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+    max-width: 60%;
+    padding: 1rem 0;
+}
+
+li {
+    list-style: unset;
+}
+
+/* unorder list */
+
+.style-list {
+    line-height: 1.5rem;
+    margin: 1rem
+}
+
+.list-style-square {
+    list-style: square;
+}
+
+.list-style-circle {
+    list-style: circle;
+}
+
+/* order list */
+
+.li-lower_roman {
+    list-style: lower-roman;
+}
+
+.li-upper_roman {
+    list-style: upper-roman;
+}
+
+.li-upper_alpha {
+    list-style: upper-alpha;
+}
+
+.li-lower_alpha {
+    list-style: lower-alpha;
+}
+
+/* stacked list */
+.stacked-list {
+    list-style: none;
+}
+
+.li-stacked {
+    background-color: #eee;
+    padding: 1.2rem;
+    width: 100%;
+    max-width: 11rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* select list group */
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+}
