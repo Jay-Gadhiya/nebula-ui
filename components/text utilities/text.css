@@ -1,0 +1,109 @@
+@import "/default.css";
+
+body {
+    margin: 2rem;
+}
+
+.alignment {
+    width: 100%;
+    max-width: 30rem;
+    border: 2px solid rgb(117, 114, 114);
+    padding: 1rem;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.fs-6 {
+    font-size: 3rem;
+}
+
+.fs-5 {
+    font-size: 2.5rem;
+}
+
+.fs-4 {
+    font-size: 2rem;
+}
+
+.fs-3 {
+    font-size: 1.75rem;
+}
+
+.fs-2 {
+    font-size: 1.5rem;
+}
+
+.fs-1 {
+    font-size: 1.25;
+}
+
+.font-weight {
+    font-size: 2rem;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+
+/* text styles */
+
+.text-styles {
+    font-size: 1.7rem;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+
+.gray-text {
+    color: #808080;
+}
+
+.error-color {
+    color: var(--danger-color);
+}
+
+.warning-color {
+    color: var(--warning-color);
+}
+
+.success-color {
+    color: var(--success-color);
+}
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
