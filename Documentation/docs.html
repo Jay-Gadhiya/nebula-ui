@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/Documentation/docs.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-wrapper">
+      <div class="navbar">
+        <div class="landing-name">Nebula</div>
+        <div class="landing-icons">
+          <span class="landing-icons"
+            ><a class="landing-link" href="#">Docs</a></span
+          >
+          <span class="landing-icons"
+            ><i class="fab fa-github"
+              ><a
+                class="landing-link"
+                href="https://github.com/Jay-Gadhiya/nebula-ui"
+              ></a></i
+          ></span>
+          <span class="landing-icons"
+            ><i class="fab fa-twitter"
+              ><a
+                class="landing-link"
+                href="https://twitter.com/JayGadhiya7"
+              ></a></i
+          ></span>
+        </div>
+      </div>
+    </nav>
+
+    <main class="doc-main-container">
+
+      <!-- aside -->
+      <div class="sidebar-section">
+        <section class="first-section-aside">
+          <div class="list-topic-heading">Get Started</div>
+
+          <div class="list-subtopics">
+            <ul>
+              <li class="item-lists"><a href="#">Installation</a></li>
+              <li class="item-lists"><a href="#">Utilities</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="second-section-aside">
+          <div class="list-topic-heading">Components</div>
+
+          <div class="list-subtopics">
+            <ul>
+              <li class="item-lists"><a href="#">Avatar</a></li>
+              <li class="item-lists"><a href="#">Alert</a></li>
+              <li class="item-lists"><a href="#">Button</a></li>
+              <li class="item-lists"><a href="#">Badge</a></li>
+              <li class="item-lists"><a href="#">Card</a></li>
+              <li class="item-lists"><a href="#">Image</a></li>
+              <li class="item-lists"><a href="#">Input</a></li>
+              <li class="item-lists"><a href="#">Ratings</a></li>
+              <li class="item-lists"><a href="#">List</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <main class="components-doc-container">
+        <!-- alert component -->
+        <div class="component-wrapper">
+          <div class="comp-heading margin-bottom">Avatar</div>
+          <div class="heading-discription margin-bottom line-height">
+            An alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
+          </div>
+
+          <div class="separator"></div>
+
+          <div class="variant-heading margin-bottom">Different alerts</div>
+
+          <div class="varient-discription line-height margin-bottom">
+            The alert can be created by using giving class name of different
+            alert variants.
+          </div>
+
+          <div class="component-container position margin-bottom">
+            <div class="wrapper">
+              <div class="alert alert-error">
+                <span class="icon"
+                  ><i class="fas fa-exclamation-circle"></i
+                ></span>
+                <span>This is an error alert — check it out!</span>
+              </div>
+
+              <div class="alert alert-warning">
+                <span class="icon"
+                  ><i class="fas fa-exclamation-triangle"></i
+                ></span>
+                <span>This is a warning alert — check it out!</span>
+              </div>
+
+              <div class="alert alert-info">
+                <span class="icon"><i class="fas fa-info-circle"></i></span>
+                <span>This is an info alert — check it out!</span>
+              </div>
+
+              <div class="alert alert-success">
+                <span class="icon"><i class="far fa-check-circle"></i></span>
+                <span>This is a success alert — check it out!</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="code-container margin-bottom">
+            <code>
+              <iframe
+                class="iframe-length"
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520a%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </div>
+
+      </main>
+
+      
+    </main>
+  </body>
+</html>

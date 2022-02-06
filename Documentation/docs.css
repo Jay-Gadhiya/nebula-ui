@@ -1,0 +1,185 @@
+@import "/default.css";
+@import "/CSS/global.css";
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: var(--default-black);
+  margin: 0;
+  padding: 0;
+}
+
+/*************** || navbar ****************/
+
+.landing-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-wrapper {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 80%;
+  color: var(--primary-color);
+}
+
+.landing-name {
+  font-size: 1.6rem;
+  font-family: "Arima Madurai", cursive;
+}
+
+.landing-icons {
+  padding-left: 1.5rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+/*************** || Docs main container ****************/
+
+.doc-main-container {
+  display: flex;
+}
+
+/*************** || aside ****************/
+
+.sidebar-section {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  max-width: 250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 1.5rem;
+}
+
+.list-topic-heading {
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+.item-lists {
+  padding-left: 3rem;
+  padding-right: 1rem;
+  padding: 1rem 1rem 1rem 3rem;
+  cursor: pointer;
+}
+
+.item-lists a {
+  padding-right: 9.1rem;
+}
+
+.item-lists:hover {
+  background-color: #d1e7ec;
+  transition: 0.45s ease-in-out;
+}
+
+/* main components part */
+
+.components-doc-container {
+  padding: 2rem 2rem 0 1.5rem;
+  overflow: auto;
+  height: calc(100vh - 4rem);
+  margin-left: auto;
+}
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b6ccf0;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #59b7ee; 
+}
+
+
+
+/*  discription about component and snippet code */
+
+.margin-bottom {
+    margin-bottom: 1.5rem;
+}
+
+.separator {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 1px;
+    background-color: #dadadaf3;
+}
+
+.component-wrapper {
+    width: 100%;    
+}
+
+.comp-heading {
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.variant-heading {
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.heading-discription {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.varient-discription {
+    font-weight: 300;
+}
+
+.component-container {
+    background-color: rgb(241, 246, 247);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.component-container > img {
+    margin-left: 1rem;
+}
+
+
+.code-container {
+    width: 100%;
+    max-width: 750px;
+    height: 300px;
+    max-height: 300px;
+}
+
+.iframe-length {
+    width: 100%;
+    height:100%; 
+    border:0; 
+    transform: scale(1); 
+    overflow: auto;
+}
+
+.position {
+    justify-content: unset;
+}

@@ -11,14 +11,14 @@ body {
     padding-right: 1rem;
 }
 
-.wrapper {
+.wrapper-alert {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-
 .alert {
-    max-width: 600px;
+    width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
     font-size: 1rem;
