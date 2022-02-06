@@ -1,6 +1,7 @@
 @import "/default.css";
 @import "/CSS/global.css";
-@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
 
 body {
   font-family: "Nunito", sans-serif;
