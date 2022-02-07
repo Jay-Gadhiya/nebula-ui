@@ -110,7 +110,7 @@ body {
 
 /* media query */
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 900px) {
 
     .landing-main {
         display: flex;
