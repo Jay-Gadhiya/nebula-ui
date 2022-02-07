@@ -81,7 +81,7 @@ h2 {
     height: 14rem;
 }
 
-img {
+.img-cards{
     height: 100%;
     width: 100%;
     object-fit: contain;
