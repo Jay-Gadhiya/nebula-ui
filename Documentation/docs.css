@@ -84,12 +84,13 @@ body {
   transition: 0.45s ease-in-out;
 }
 
-/* main components part */
+/******************* main components part ******************/
 
 .components-doc-container {
   padding: 2rem 2rem 0 1.5rem;
   overflow: auto;
   height: calc(100vh - 4rem);
+  scroll-behavior: smooth;
   margin-left: auto;
 }
 
