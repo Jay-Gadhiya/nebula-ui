@@ -59,6 +59,10 @@ body {
     color: #fff;
 }
 
+.btn-primary a {
+    color: #fff;
+}
+
 .btn-primary:hover {
     background-color: var(--primary-hover);
 }
@@ -86,7 +90,7 @@ body {
 .sub-heading {
     font-size: 1.4rem;
     padding: 1rem;
-    text-align: justify;
+    text-align: center;
     line-height: 2rem;
 }
 
