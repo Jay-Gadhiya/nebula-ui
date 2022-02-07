@@ -117,6 +117,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-left: 0;
+        padding: .5rem;
     }
 
     .landing-discription {
@@ -127,7 +128,6 @@ body {
     .image {
         width: 200px;
         height: 200px; 
-        /* margin: auto ; */
     }
 
     .heading {
