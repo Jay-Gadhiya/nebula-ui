@@ -183,3 +183,10 @@ body {
 .position {
     justify-content: unset;
 }
+
+
+@media screen and (max-width : 724px) {
+  .sidebar-section {
+    display: none;
+  }
+}
