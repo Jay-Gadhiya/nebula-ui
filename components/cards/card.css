@@ -14,7 +14,7 @@ h2 {
 }
 
 /********************** ||card button ********************/
-.btn {
+.btn-card {
     padding: .5rem .7rem;
     margin-top: 1.5rem;
     font-family: inherit;
@@ -27,17 +27,17 @@ h2 {
     transition: .4s ease-in-out;
 }
 
-.btn-primary {
+.btn-primary-card {
     background-color: var(--primary-color);
     color: #fff;
     font-size: 1rem;
 }
 
-.btn-primary:hover {
+.btn-primary-card:hover {
     background-color: var(--primary-hover);
 }
 
-.btn-primary-outline {
+.btn-primary-card-outline {
     border: 2px solid var(--primary-color);
     box-shadow: none;
     background-color: transparent;
@@ -59,7 +59,7 @@ h2 {
     background-color: var(--secondary-hover);
 }
 
-.icon {
+.icon-card {
     font-size: 1rem;
     padding-right: .7rem;
     cursor: pointer;

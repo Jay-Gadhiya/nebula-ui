@@ -132,7 +132,8 @@ body {
 }
 
 .component-wrapper {
-    width: 100%;    
+    width: 100%;
+    margin-bottom: 3rem;    
 }
 
 .comp-heading {
@@ -167,18 +168,15 @@ body {
 
 
 .code-container {
-    width: 100%;
-    max-width: 750px;
-    height: 300px;
-    max-height: 300px;
+    max-width: 100%;
 }
 
 .iframe-length {
+    border: 0;
     width: 100%;
-    height:100%; 
-    border:0; 
-    transform: scale(1); 
-    overflow: auto;
+    height: 250px;
+    overflow: hidden;
+    transform: scale(1);
 }
 
 .position {

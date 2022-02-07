@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="/Documentation/docs.css"/>
+    <link rel="stylesheet" href="/Documentation/docs.css" />
     <title>Document</title>
   </head>
   <body>
@@ -39,7 +39,6 @@
     </nav>
 
     <main class="doc-main-container">
-
       <!-- aside -->
       <div class="sidebar-section">
         <section class="first-section-aside">
@@ -58,9 +57,9 @@
 
           <div class="list-subtopics">
             <ul>
-              <li class="item-lists"><a href="#">Avatar</a></li>
               <li class="item-lists"><a href="#alert">Alert</a></li>
-              <li class="item-lists"><a href="#">Button</a></li>
+              <li class="item-lists"><a href="#avatar">Avatar</a></li>
+              <li class="item-lists"><a href="#button">Button</a></li>
               <li class="item-lists"><a href="#">Badge</a></li>
               <li class="item-lists"><a href="#">Card</a></li>
               <li class="item-lists"><a href="#">Image</a></li>
@@ -72,9 +71,11 @@
         </section>
       </div>
 
+      <!---------------------  components  -------------------------->
+
       <main class="components-doc-container">
-        <!-- Alert component -->
-        <div class="component-wrapper">
+        <!------------------- Alert component ---------------------->
+        <div id="alert" class="component-wrapper">
           <div class="comp-heading margin-bottom">Alert</div>
           <div class="heading-discription margin-bottom line-height">
             An alert displays a short, important message in a way that attracts
@@ -119,20 +120,268 @@
           </div>
 
           <div class="code-container margin-bottom">
-            <code>
-              <iframe
-                class="iframe-length"
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520a%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%253Cspan%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
+            <iframe
+              class="iframe-length"
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-error%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520an%2520error%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520warning%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520an%2520info%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cspan%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
+
+          <div class="separator"></div>
+
         </div>
 
-      </main>
+        <!-------------------- avatar component --------------------->
 
-      
+        <div id="avatar" class="component-wrapper">
+          <div class="comp-heading  margin-bottom">
+              Avatar
+          </div>
+          <div class="heading-discription margin-bottom line-height">
+              Avatars are user profile pictures, usually found in circular shapes. It can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items.
+          </div>
+  
+          <div class="separator"></div>
+  
+          <div class="variant-heading margin-bottom">
+              Profile Avatar
+          </div>
+  
+          <div class="varient-discription line-height margin-bottom">
+              You can use Profile Avatars by add 'avatar' class inside the img tag.
+          </div>
+  
+          <div class="component-container margin-bottom">
+              <img class="avatar" src="/images/large-img.jpeg">
+              <img class="avatar" src="/images/profile-image1.svg">
+              <img class="avatar" src="/images/profile-image2.jpeg">
+          </div>
+  
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Flarge-img.jpeg%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fprofile-image1.svg%2522%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fprofile-image2.jpeg%2522%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+          <div class="separator"></div>
+  
+  
+          <div class="variant-heading margin-bottom">
+              Avatar in different sizes
+          </div>
+  
+          <div class="varient-discription line-height margin-bottom">
+              Size of the avatars can be changed by adding avatar-large | avatar-meduim | avatar-small class to the existing avatar class.
+          </div>
+  
+          <div class="component-container margin-bottom">
+              <div class="avatar-sizes">
+                  <div><img class="avatar avatar-large" src="/images/large-img.jpeg" alt=""></div>
+                  <div><img class="avatar avatar-meduim" src="/images/medium.jpeg" alt=""></div>
+                  <div><img class="avatar avatar-small" src="/images/small.jpeg" alt=""></div>
+              </div>
+          </div>
+  
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar-large%2522%2520src%253D%2522%252Flarge-img.jpeg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar-meduim%2522%2520src%253D%2522%252Fmedium.jpeg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%253E%253Cimg%2520class%253D%2522avatar%2520avatar-small%2522%2520src%253D%2522%252Fsmall.jpeg%2522%2520alt%253D%2522%2522%253E%253C%252Fdiv%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+
+          <div class="separator"></div>
+
+        </div>
+
+        <!-------------------- Button component --------------------->
+
+        <div id="button" class="component-wrapper">
+          <div class="comp-heading margin-bottom">Buttons</div>
+          <div class="heading-discription margin-bottom line-height">
+              Buttons are also called as call to action which is important part in website. Buttons allow users to take actions, and make choices, with a single tap.
+          </div>
+    
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Contained Buttons</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              Contained buttons contain actions that are primary to your app. Contained buttons are high-emphasis, distinguished by their use. They contain actions that are primary to your app.
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn">Default</button>
+                  <button class="btn btn-primary">Primary</button>
+                  <button class="btn btn-secondary">Secondary</button>
+                  <button class="btn btn-disabled">Disabled</button>
+              </div>
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-disabled%2522%253EDisabled%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+                  
+          </div>
+  
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Outlined Buttons</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              The outline button style removes all background colors from a button and gives it a lighter look. The outline style buttons can be used for various purposes.
+              <p>for example: Indicating the secondary action complementing the primary action.</p> 
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn btn-primary-outline">Primary</button>
+                  <button class="btn btn-secondary-outline">Secondary</button>
+              </div>
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+  
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Link Buttons</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              When mouse clicked on the button then the button acts like a link and redirect page into the given location. This is used to show a button which will work as link. 
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn btn-primary-link"><a href="#">Primary</a></button>
+                  <button class="btn btn-secondary-link"><a href="#">Secondary</a></button>
+              </div>
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EPrimary%253C%252Fa%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ESecondary%253C%252Fa%253E%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+  
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Buttons With Icon</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              Icons in buttons represents the specific action related to that icon. Icon buttons allow users to take actions, and make choices, with a single tap.
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn btn-delete btn-secondary">
+                      <span class="icon-btn"><i class="far fa-trash-alt"></i></span>
+                      Delete
+                  </button>
+                  <button class="btn btn-primary">
+                      send
+                      <span class="icon-btn"><i class="far fa-paper-plane"></i></span>
+                  </button>
+                  <button class="btn"><span class="icon-btn"><i class="fas fa-cloud-upload-alt"></i></span>
+                      Upload
+                  </button>
+                  <button class="btn btn-primary">
+                      <span class="icon-btn"><i class="far fa-save"></i></span>
+                      save
+                  </button>
+              </div>
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-delete%2520btn-secondary%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520Delete%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520send%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-paper-plane%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2522%253E%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cloud-upload-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520Upload%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253E%250A%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520save%250A%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+  
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Floating Action buttons</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              A floating action button (FAB) performs the primary, or most common, action on a screen. It appears in front of all screen content, typically as a circular shape with an icon in its center.
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn btn-primary btn-floating">
+                      <span class="icon-btn"><i class="fas fa-plus"></i></span>
+                  </button>
+          
+                  <button class="btn btn-primary btn-floating">
+                      <span class="icon-btn"><i class="fas fa-pen"></i></span>
+                  </button>
+          
+                  <button class="btn btn-secondary btn-delete btn-floating">
+                      <span class="icon-btn"><i class="far fa-trash-alt"></i></span>
+                  </button>
+          
+                  <button class="btn btn-primary btn-floating">
+                      <span class="icon-btn"><i class="fas fa-arrow-up"></i></span>
+                  </button>
+              </div>
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-pen%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-delete%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-floating%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+          <div class="separator"></div>
+    
+          <div class="variant-heading margin-bottom">Buttons in sizes</div>
+    
+          <div class="varient-discription line-height margin-bottom">
+              You can make button large and small by putting class <strong>btn-small</strong> and <strong>btn-large</strong>.
+          </div>
+    
+          <div class="component-container position margin-bottom">
+              <div class="button-wrapper">
+                  <button class="btn btn-primary btn-small">small</button>
+                  <button class="btn btn-primary btn-large">large</button>
+                  <button class="btn btn-secondary btn-small">small</button>
+                  <button class="btn btn-secondary btn-large">large</button>
+              </div> 
+          </div>
+    
+          <div class="code-container margin-bottom">
+            <iframe
+            class="iframe-length"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=sharp&l=auto&width=744&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-small%2522%253Esmall%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-large%2522%253Elarge%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-small%2522%253Esmall%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-large%2522%253Elarge%253C%252Fbutton%253E"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </div>
+  
+      </div>
+
+
+      </main>
     </main>
   </body>
 </html>

@@ -10,7 +10,7 @@ body {
 }
 
 .btn {
-    padding: 1.1rem;
+    padding: 1rem;
     font-family: inherit;
     letter-spacing: 1px;
     background-color: #eee;
@@ -43,7 +43,7 @@ body {
 .btn-disabled {
     background-color: #9CA3AF;
     pointer-events: none;
-    color: #fff;
+    color: var(--default-black);
 }
 
 .btn:hover {
@@ -105,15 +105,15 @@ body {
     background-color: #bbd5fa;
 }
 
-.icon {
-    font-size: 1.2rem;
+.icon-btn {
+    font-size: 1rem;
 }
 
 
 /* floating action button */
 
 .btn-floating {
-    padding: 1.7rem;
+    padding: 1.4rem;
     border-radius: 50%;
 }
 
