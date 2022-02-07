@@ -45,6 +45,11 @@ h2 {
     color: var(--primary-color);
 }
 
+.btn-primary-card-outline:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
 
 .btn-wishlist {
     box-shadow: none;
