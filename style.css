@@ -120,6 +120,10 @@ body {
         padding: .5rem;
     }
 
+    .landing-name {
+        font-family: 'Nunito', sans-serif;
+    }
+
     .landing-discription {
         margin: 0;
         padding: 0;
