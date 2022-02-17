@@ -194,7 +194,11 @@ body {
     display: none;
   }
 
-  .navbar .landing-name, .landing-link {
+  .navbar .landing-link {
       font-size: 1rem;
+  }
+
+  .navbar .name-media-change {
+    font-size: 1.2rem;
   }
 }
