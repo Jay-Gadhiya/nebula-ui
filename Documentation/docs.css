@@ -193,4 +193,8 @@ body {
   .sidebar-section {
     display: none;
   }
+
+  .navbar .landing-name, .landing-link {
+      font-size: 1rem;
+  }
 }
