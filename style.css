@@ -7,8 +7,12 @@ body {
 }
 
 .landing-link{
-    color: var(--primary-color);
+    color: #fff;
     text-decoration: none;
+}
+
+.landing-link:hover {
+    color: var(--primary-hover);
 }
 
 .navbar-wrapper {
@@ -16,7 +20,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 5px;
+    box-shadow: #11111a1a 0px 0px 5px;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0c89ba 0%, #03396b 74%);
 }
 
 .navbar {
