@@ -8,10 +8,13 @@ Nebula is lightwheight CSS library that helps to create a beautiful layouts usin
 
 ## Installation
 
-To use componets just put this link into head section of your project.
-
+* Import in HTML file as a Stylesheet:
 ```bash
 <link rel="stylesheet" href="https://nebulaui.netlify.app/CSS/global.css">
+```
+* Import in CSS file as a Stylesheet:
+ ```css
+@include url(https://nebulaui.netlify.app/CSS/global.css)
 ```
 
 ## Table of contents
