@@ -1,7 +1,7 @@
 
 # Nebula UI
 
-Nebula is lightwheight CSS library that helps to create a beautiful ayouts using pre-made components in html and css.
+Nebula is lightwheight CSS library that helps to create a beautiful layouts using pre-made components in html and css.
 
 ![alt text](https://img.shields.io/badge/-HTML-orange)
 ![alt text](https://img.shields.io/badge/-CSS-blue)
