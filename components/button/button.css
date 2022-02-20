@@ -113,8 +113,12 @@ body {
 /* floating action button */
 
 .btn-floating {
-    padding: 1.4rem;
+    padding: 1.2rem;
     border-radius: 50%;
+}
+
+.btn-floating i {
+    font-size: 1.3rem;
 }
 
 .btn-delete {
