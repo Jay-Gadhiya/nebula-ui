@@ -8,6 +8,7 @@ body {
   color: var(--default-black);
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 /*************** || navbar ****************/
@@ -187,6 +188,19 @@ body {
 .position {
     justify-content: unset;
 }
+
+/* Float up button */
+
+.btn-position {
+  position: fixed;
+  right: 4%;
+  bottom: 4%;
+}
+
+.btn-position                                                                                                                                                                                                                                                                                        a {
+  color: #fff;
+}
+
 
 
 @media screen and (max-width : 724px) {
