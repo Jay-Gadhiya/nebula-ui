@@ -2,7 +2,6 @@
 @import "/CSS/global.css";
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 
-
 body {
   font-family: "Nunito", sans-serif;
   color: var(--default-black);
@@ -30,7 +29,6 @@ body {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0c89ba 0%, #03396b 74%);
 }
-
 
 .navbar {
   display: flex;
@@ -122,60 +120,57 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #59b7ee; 
+  background: #59b7ee;
 }
-
-
 
 /*  discription about component and snippet code */
 
 .margin-bottom {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .separator {
-    margin-bottom: 2rem;
-    width: 100%;
-    height: 1px;
-    background-color: #dadadaf3;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 1px;
+  background-color: #dadadaf3;
 }
 
 .component-wrapper {
-    width: 100%;
-    margin-bottom: 3rem;    
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
 .comp-heading {
-    font-weight: 900;
-    font-size: 2.3rem;
+  font-weight: 900;
+  font-size: 2.3rem;
 }
 
 .variant-heading {
-    font-size: 1.6rem;
-    font-weight: 800;
-    color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary-color);
 }
 
 .heading-discription {
-    font-weight: 300;
-    font-size: 1.2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
 }
 
 .varient-discription {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .component-container {
-    background-color: rgb(241, 246, 247);
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+  background-color: rgb(241, 246, 247);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 .component-container > img {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
-
 
 .code-container {
   width: 100%;
@@ -184,9 +179,8 @@ body {
   margin-bottom: 2rem;
 }
 
-
 .position {
-    justify-content: unset;
+  justify-content: unset;
 }
 
 /* Float up button */
@@ -197,22 +191,20 @@ body {
   bottom: 4%;
 }
 
-.btn-position                                                                                                                                                                                                                                                                                        a {
+.btn-position a {
   color: #fff;
 }
 
-
-
-@media screen and (max-width : 724px) {
+@media screen and (max-width: 724px) {
   .sidebar-section {
     display: none;
   }
 
   .navbar .landing-link {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .navbar .name-media-change {
-    font-size: 1.2rem;    
+    font-size: 1.2rem;
   }
 }
