@@ -14,7 +14,7 @@ Nebula is lightwheight CSS library that helps to create a beautiful layouts usin
 ```
 * Import in CSS file as a Stylesheet:
  ```css
-@include url(https://nebulaui.netlify.app/CSS/global.css)
+@import url("https://nebulaui.netlify.app/CSS/global.css");
 ```
 
 ## Table of contents
