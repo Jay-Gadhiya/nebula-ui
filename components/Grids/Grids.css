@@ -1,0 +1,16 @@
+@import "/default.css";
+@import "/components/cards/card.css";
+
+/* 2 items grid */
+
+.grid-2-item-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.grid-3-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
