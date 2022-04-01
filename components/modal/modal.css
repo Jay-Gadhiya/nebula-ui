@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "/default.css";
+
+:root {
+    --grey-color : #919191;
+    --light-grey : #d6d2d2;
+    --white-color : #fff;
+}
+
+.margin-evenly {
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+.modal-container {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 25rem;
+    color: var(--default-black);
+    margin: 2rem;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.modal-title-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--light-grey);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+.modal-cancle-icon {
+    font-size: 2.5rem;
+    color: var(--grey-color);
+    cursor: pointer;
+}
+
+.model-content {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.control-buttons-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.modal-btn-cancle {
+    padding: .5rem .6rem;
+    background-color: var(--grey-color);
+    outline: none;
+    border: none;
+    color: var(--white-color);
+    font-size: 1.1rem;
+    font-size: 500;
+
+}
+
+.modal-btn-save {
+    padding: .5rem .6rem;
+    outline: none;
+    border: none;
+    background-color: var(--primary-color);
+    font-size: 1.1rem;
+    font-size: 500;
+    color: var(--white-color);
+}
