@@ -20,7 +20,7 @@
 
 /* **************************** standard **************************** */
 
-.header {
+.header-navs {
     display: flex;
     align-items: center;
     background-color: var(--primary-color);
@@ -75,4 +75,15 @@
     height: 6rem;
     align-items: baseline;
     position: relative;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .items {
+        display: none;
+    }
+
+    .text  {
+        font-size: .8rem;
+    }
 }
