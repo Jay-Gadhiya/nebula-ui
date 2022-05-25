@@ -1,0 +1,89 @@
+@import "/default.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.input-for-nav {
+    border-radius: 4px;
+    border-style: none;
+    padding: .3rem;
+    outline: none;
+}
+
+.navbars-container {
+    width: 50rem;
+}
+
+/* **************************** standard **************************** */
+
+.header-navs {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 2.8rem;
+    margin: 2rem;
+    color: #eee;
+    padding: 1rem;
+}
+
+.text {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    margin-left: auto;
+}
+
+.items i{
+    padding-left: 1.7rem;
+}
+
+/* **************************** Short **************************** */
+.header-short {
+    height: 2.5rem;
+}
+
+
+/* **************************** Prominent **************************** */
+
+.header-prominent {
+    height: 8rem;
+    align-items: baseline;
+    position: relative;
+}
+
+.text-prominent {
+    position: absolute;
+    bottom: .8rem;
+    left: 2rem;
+}
+
+/* **************************** Prominent-dense **************************** */
+
+.header-prominent-dense {
+    height: 6rem;
+    align-items: baseline;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .items {
+        display: none;
+    }
+
+    .text  {
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,38 @@
+@import "/default.css";
+
+:root {
+    --white-color : #fff;
+}
+
+.toast-container {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 20rem;
+    padding: .5rem;
+}
+
+.toast-description {
+    font-size: 1.3rem;
+    color: var(--white-color);
+}
+
+.toast-cancle-icon {
+    font-size: 2rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.toast-success {
+    background-color: var(--success-color);
+}
+
+.toast-warning {
+    background-color: var(--warning-color);
+}
+
+.toast-danger {
+    background-color: var(--danger-color);
+}
